@@ -1,0 +1,448 @@
+      *
+      {
+      	color: white;
+      }
+      html{
+      	scroll-behavior: smooth;
+      	overflow-x: hidden;
+      }
+      body
+      {
+      	overflow-x: hidden;
+      	margin: 0;
+      	padding: 0;
+      	background-color: #1d1e22;
+
+      }
+      .container
+      {
+      	width: 100%;
+      	display: flex;
+      }
+      .left
+      {
+      	background-color: white;
+      	width: 25%;
+      	height: 90%;
+      	margin-top: 2%;
+      	position: fixed;
+      }
+      .right
+      {
+      	width: 75%;
+      	height: 200%;
+      	margin-left: 25%;
+      	padding-left: 10px;
+      }
+      .logo
+      {
+      	margin: auto;
+      	margin-left: 80px;
+      	margin-top: 80px;
+      	font-size: 40px;
+      }
+      .navbar
+      {
+      	color:#1d1e22;
+      	margin: 0;
+      	list-style-type: none;
+      	padding: 10px;
+      	width: 100%;
+      	font-size: 20px;
+      }
+      .navbar li
+      {
+      	margin-top: 2px;
+      	margin-left: 45px;
+      	padding: 12px;
+      	width: 75%;
+      	border-radius: 10px;
+      	text-align: start;
+      	color:black;
+      	font-weight: bolder;
+      }
+      .navbar li a
+      {
+      	text-decoration: none;
+      	color: black;
+      }
+      .social_accounts {
+      	margin:0;
+      	padding:8px;
+      	display:flex;
+      	width: 90%;
+      	height: 10vh;
+      	margin-top: 22px;
+      	margin-left: 8px;
+      	color: black;
+      }
+      .social_accounts a {
+      	width:60px;
+      	height:45px;
+      	text-align:center;
+      	margin:0 10px;
+      	border-radius: 10%;
+      	padding: 6px;
+      	box-sizing: border-box;
+      	box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+      }
+      .social_accounts a i
+      {
+      	color: black;
+      	font-size: 30px;
+      }
+      .home
+      {
+      	width: 100%;
+      	height: 70vh;
+      	background-color: white;
+      	margin-top: 12px;
+      	position: relative;
+      }
+      .images
+      {
+      	position: absolute;
+      	width: 370px;
+      	height: 500px;
+      	margin-top: 100px;
+      	border: 5px solid white;
+      }
+      .slides_text
+      {
+      	position: absolute;
+      	width: 500px;
+      	height: 230px;
+      	margin-left: 45%;
+      	margin-top: 10%;
+      	padding: 0;
+      	background-color: white;
+      }
+      .slides_text p
+      {
+      	color: black;
+
+      }
+
+      .slides_text h1
+      {
+      	font-size: 40px;
+      	color: black;
+      }
+      .contact-btn
+      {
+      	padding: 10px;
+      	border-radius: 10px;
+      	width: 30%;
+      	background-color:#1d1e22;
+      	color: white;
+      	font-weight: bolder;
+      	margin-top: 33%;
+      	margin-left: 45%;
+      }
+      .about_us
+      {
+      	width: 95%;
+      	display: flex;
+      	flex-wrap: wrap;
+      	background: linear-gradient(to right, #232526, #414345);
+      	padding: 18px;
+      	margin-top: 170px;
+      	align-items: center;
+      }
+      .about_us_text
+      {
+      	width: 50%;
+      	height: 100%;
+      }
+      .about_us_text h1
+      {
+      	text-align: center;
+      	font-size: 60px;
+      	margin-bottom: 5px;
+
+      }
+      .about_us_text p
+      {
+      	font-size: 20px;
+      	margin: 0;
+      	text-align: justify;
+      	padding-right: 20px;
+      }
+      .about_us_img
+      {
+      	width: 50%;
+      	height: 100%;
+      }
+      .services
+      {
+      	width: 100%;
+      	background-color: white;
+      	margin-top: 10px;
+      	display: flex;
+      	flex-wrap: wrap;
+
+      }
+      .card
+      {
+      	width: 45%;
+      	height: 50%;
+      	display: flex;
+      }
+      .card_text
+      {
+      	width: 50%;
+      	height: 90%;
+      	margin-top: 5%;
+      	background-color: white;
+
+      }
+      .card_img
+      {
+      	width: 50%;
+      	height: 100%;
+      }
+      .card_text h1
+      {
+      	text-align: center;
+      	margin-bottom: 5px;
+      	color: black;
+
+      }
+      .card_text p
+      {
+      	margin: 0;
+      	text-align: justify;
+      	padding: 15px;	
+      	color: black;
+      }
+      .contact
+      {
+      	width: 100%;
+      	margin-top: 10px;
+      	display: flex;
+      	background-color: white;
+      }
+      .contact_text
+      {
+      	width: 50%;
+      	height: 100%;
+      	background: linear-gradient(to right, #232526, #414345);
+      }
+      .contact_text h1
+      {
+      	text-align: center;
+      	margin-bottom: 5px;
+      	font-size: 45px;
+
+      }
+      .contact_text p
+      {
+      	margin: 0;
+      	text-align: justify;
+      	padding: 15px;
+      	font-size: 20px;	
+      }
+      .icons{
+      	margin: 10px 0;
+      }
+      .icons .row{
+      	display: flex;
+      	height: 65px;
+      	align-items: center;
+      	margin-left: 70px;
+      }
+      .icons .row .info{
+      	margin-left: 20px;
+      }
+      .icons .row i{
+      	font-size: 25px;
+      	color: white;
+      }
+      .icons .info .head{
+      	/*font-weight: 500;*/
+      	padding: 10px 25px;
+      	font-weight: bold;
+      	border-radius: 6px;
+      }
+      .contact_form
+      {
+      	width: 50%;
+      	height: 90%;
+      	padding: 10px;
+      }
+
+      .contact_form form .field
+      {
+      	height: 45px;
+      	width: 90%;
+      	margin-bottom: 15px;
+      }
+      .contact_form form .textarea{
+      	height: 80px;
+      	width: 90%;
+      }
+      .contact_form form .name{
+      	margin-right: 10px;
+      }
+      .contact_form form .field input,
+      .contact_form form .textarea textarea{
+      	height: 100%;
+      	width: 100%;
+      	border: 1px solid lightgrey;
+      	border-radius: 6px;
+      	outline: none;
+      	padding: 0 15px;
+      	font-size: 17px;
+      	font-family: 'Poppins', sans-serif;
+      	transition: all 0.3s ease;
+
+      }
+      .contact_form form .field input:focus,
+      .contact_form .right form .textarea textarea:focus{
+      	border: #b3b3b3;
+      	border-bottom: 2px solid #ff0081;
+
+      }
+      .contact_form form .textarea textarea{
+      	padding-top: 10px;
+      	resize: none;
+
+      }
+      .contact_form form .button-area{
+      	display: flex;
+      	align-items: center;
+      	margin-top: 20px !important;
+
+      }
+      .contact_form form .button-area .send_mail_btn{
+      	padding: 10px;
+      	border-radius: 10px;
+
+      	background-color:#1d1e22;
+      	color: white;
+      	font-weight: bolder
+      	color: #fff;
+      	display: block;
+      	width: 97% !important;
+      	height: 45px;
+      	outline: none;
+      	font-size: 18px;
+      	font-weight: 500;
+      	border-radius: 6px;
+      	cursor: pointer;
+      	flex-wrap: nowrap;
+
+      }
+      .right form .button-area .send_mail_btn:hover{
+      	color: #ff0081;
+      	background: none;
+      }
+      footer{
+      	background: #111;
+      	padding: 15px 23px;
+      	color: #fff;
+      	text-align: center;
+      }
+      footer span a{
+      	color: #ff0081;
+      	text-decoration: none;
+      }
+      footer span a:hover{
+      	text-decoration: underline;
+      }
+      @media (max-width: 768px) {
+      	.left{
+      		display: none;
+      	}
+      	.right
+      	{
+      		margin-left: 0;
+      		width: 100%;
+      		padding-left: 0;
+      	}
+      	.home
+      	{
+      		margin-top: 0;
+      	}
+      	.slides_text
+      	{
+      		margin: 0;
+      		position: absolute;
+      		width: 100%;
+      		height: 230px;
+      		margin-left: 0 !important;
+      		margin-top: 10%;
+      		padding: 0;
+      		background-color: white;
+      	}
+      	.slides_text h1 span
+      	{ 
+      		font-size: 100px;
+      	}
+      	.slides_text h1 
+      	{ 
+      		text-align: center;
+      	}
+      	.slides_text p 
+      	{ 
+      		text-align: center;
+      	}
+
+      	.images
+      	{
+      		margin-top: 100%;
+      	}
+      	.about_us
+      	{
+      		width: 100%;
+      		margin-top: 80%;
+      	}
+      	.about_us_text
+      	{
+      		width: 90%;
+      		height: 45%;
+      	}
+      	.about_us_img
+      	{
+      		width: 90%;
+      		height: 45%;
+      		margin-top: 30px;
+      	}
+      	.services
+      	{
+      		width: 95%;
+      		margin-top: 10px;
+      		display: block;
+      	}
+      	.card
+      	{
+      		width: 100%;
+      		height: 25%;
+      		margin: 0 !important;
+
+      	}
+      	.contact
+      	{
+      		width: 100%;
+      		margin-top: 10px;
+      		display: block;
+      		background-color: white;
+
+      	}
+      	.contact_text
+      	{
+      		width: 100%;
+      		height: 50%;
+      	}
+      	.contact_form
+      	{
+      		width: 100%;
+      		height: 120%;
+      		padding: 10px;
+      	}
+      	footer
+      	{
+      		width: 100%;
+      	}
+
+      }
